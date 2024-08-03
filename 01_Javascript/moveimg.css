@@ -1,0 +1,37 @@
+img {
+  width: 700px;
+  height: 700px;
+  padding-left: 21px;
+  padding-right: 21px;
+}
+
+.wrapper {
+  width: 710px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#container {
+  position: absolute;
+}
+
+#container > image {
+  width: 100%;
+  display: none;
+}
+button {
+  position: absolute;
+  height: 100%;
+  background-color: black;
+  top: 0;
+  color: white;
+}
+button:hover {
+  opacity: 0.5;
+}
+#prev {
+  left: 0;
+}
+#next {
+  right: 0;
+}

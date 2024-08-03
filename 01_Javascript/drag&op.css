@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.container img {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+
+.dragging {
+  opacity: 0.5;
+  border: 2px solid;
+}
